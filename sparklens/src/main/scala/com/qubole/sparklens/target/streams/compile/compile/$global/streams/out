@@ -1,0 +1,190 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:22:29: object analyzer is not a member of package com.qubole.sparklens[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.qubole.sparklens.analyzer._[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:23:29: object common is not a member of package com.qubole.sparklens[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.qubole.sparklens.common.{AggregateMetrics, AppContext, ApplicationInfo}[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:24:29: object timespan is not a member of package com.qubole.sparklens[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.qubole.sparklens.timespan.{ExecutorTimeSpan, HostTimeSpan, JobTimeSpan, StageTimeSpan}[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:25:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.hadoop.conf.Configuration[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:26:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.hadoop.fs.{FileSystem, Path}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:27:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:28:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.scheduler._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:40:56: not found: type SparkListener[0m
+[0m[[0m[31merror[0m] [0m[0mclass QuboleJobListener(sparkConf: SparkConf)  extends SparkListener {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:40:36: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0mclass QuboleJobListener(sparkConf: SparkConf)  extends SparkListener {[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:42:40: not found: type ApplicationInfo[0m
+[0m[[0m[31merror[0m] [0m[0m  protected val appInfo          = new ApplicationInfo()[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:43:64: not found: type ExecutorTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m  protected val executorMap      = new mutable.HashMap[String, ExecutorTimeSpan]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:44:64: not found: type HostTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m  protected val hostMap          = new mutable.HashMap[String, HostTimeSpan]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:45:62: not found: type JobTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m  protected val jobMap           = new mutable.HashMap[Long, JobTimeSpan][0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:46:61: not found: type StageTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m  protected val stageMap         = new mutable.HashMap[Int, StageTimeSpan][0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:49:40: not found: type AggregateMetrics[0m
+[0m[[0m[31merror[0m] [0m[0m  protected val appMetrics       = new AggregateMetrics()[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:65:38: not found: type AggregateMetrics[0m
+[0m[[0m[31merror[0m] [0m[0m  private def appAggregateMetrics(): AggregateMetrics = appMetrics[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:67:60: not found: type AggregateMetrics[0m
+[0m[[0m[31merror[0m] [0m[0m  private def hostAggregateMetrics(hostID: String): Option[AggregateMetrics] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:71:68: not found: type AggregateMetrics[0m
+[0m[[0m[31merror[0m] [0m[0m  private def executorAggregateMetrics(executorID: String): Option[AggregateMetrics] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:93:35: not found: type SparkListenerTaskEnd[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onTaskEnd(taskEnd: SparkListenerTaskEnd): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:132:42: not found: type AppContext[0m
+[0m[[0m[31merror[0m] [0m[0m  private[this] def dumpData(appContext: AppContext): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:7:47: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  private [qubole] def getDumpDirectory(conf: SparkConf): String = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:135:14: not found: value FileSystem[0m
+[0m[[0m[31merror[0m] [0m[0m    val fs = FileSystem.get(new URI(dumpDir), new Configuration())[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:135:51: not found: type Configuration[0m
+[0m[[0m[31merror[0m] [0m[0m    val fs = FileSystem.get(new URI(dumpDir), new Configuration())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:142:53: not found: type SparkListenerApplicationStart[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onApplicationStart(applicationStart: SparkListenerApplicationStart): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:148:49: not found: type SparkListenerApplicationEnd[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onApplicationEnd(applicationEnd: SparkListenerApplicationEnd): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:153:26: not found: type AppContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val appContext = new AppContext(appInfo,[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:11:52: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  private [qubole] def asyncReportingEnabled(conf: SparkConf): Boolean = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:16:46: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  private [qubole] def dumpDataEnabled(conf: SparkConf): Boolean = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:168:9: not found: value AppAnalyzer[0m
+[0m[[0m[31merror[0m] [0m[0m        AppAnalyzer.startAnalyzers(appContext)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:172:47: not found: type SparkListenerExecutorAdded[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onExecutorAdded(executorAdded: SparkListenerExecutorAdded): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:175:26: not found: type ExecutorTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m      val timeSpan = new ExecutorTimeSpan(executorAdded.executorId,[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:183:38: not found: type HostTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m      val executorHostTimeSpan = new HostTimeSpan(executorAdded.executorInfo.executorHost)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:189:51: not found: type SparkListenerExecutorRemoved[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onExecutorRemoved(executorRemoved: SparkListenerExecutorRemoved): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:195:37: not found: type SparkListenerJobStart[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onJobStart(jobStart: SparkListenerJobStart) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:196:27: not found: type JobTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m    val jobTimeSpan = new JobTimeSpan(jobStart.jobId)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:204:33: not found: type SparkListenerJobEnd[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onJobEnd(jobEnd: SparkListenerJobEnd): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:211:49: not found: type SparkListenerStageSubmitted[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onStageSubmitted(stageSubmitted: SparkListenerStageSubmitted): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:213:31: not found: type StageTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m      val stageTimeSpan = new StageTimeSpan(stageSubmitted.stageInfo.stageId,[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleJobListener.scala:223:49: not found: type SparkListenerStageCompleted[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onStageCompleted(stageCompleted: SparkListenerStageCompleted): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:19:29: object analyzer is not a member of package com.qubole.sparklens[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.qubole.sparklens.analyzer.{AppAnalyzer, EfficiencyStatisticsAnalyzer, ExecutorWallclockAnalyzer, StageSkewAnalyzer}[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:20:29: object common is not a member of package com.qubole.sparklens[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.qubole.sparklens.common.AppContext[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:21:29: object timespan is not a member of package com.qubole.sparklens[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.qubole.sparklens.timespan.{ExecutorTimeSpan, HostTimeSpan}[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:22:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.scheduler.{SparkListenerApplicationEnd, SparkListenerTaskStart}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:23:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.util.SizeEstimator[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:24:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.{SparkConf, SparkContext}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:76:41: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0mclass QuboleNotebookListener(sparkConf: SparkConf) extends QuboleJobListener(sparkConf: SparkConf) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:76:89: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0mclass QuboleNotebookListener(sparkConf: SparkConf) extends QuboleJobListener(sparkConf: SparkConf) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:83:49: not found: type SparkListenerApplicationEnd[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onApplicationEnd(applicationEnd: SparkListenerApplicationEnd): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:88:39: not found: type SparkListenerTaskStart[0m
+[0m[[0m[31merror[0m] [0m[0m  override def onTaskStart(taskStart: SparkListenerTaskStart): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:92:26: not found: type ExecutorTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m      val timeSpan = new ExecutorTimeSpan(taskInfo.executorId,[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:99:26: not found: type HostTimeSpan[0m
+[0m[[0m[31merror[0m] [0m[0m      val timeSpan = new HostTimeSpan(taskInfo.host)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:107:5: not found: value SizeEstimator[0m
+[0m[[0m[31merror[0m] [0m[0m    SizeEstimator.estimate(this)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:116:31: not found: type AppAnalyzer[0m
+[0m[[0m[31merror[0m] [0m[0m    val list = new ListBuffer[AppAnalyzer][0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:121:26: not found: type AppContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val appContext = new AppContext(appInfo,[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/QuboleNotebookListener.scala:165:26: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def registerAndGet(sc: SparkContext): QuboleNotebookListener = {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:21:52: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  private [qubole] def sparklensPreviousDump(conf: SparkConf): Option[String] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:26:54: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  private[qubole] def autoscaleGraphDimensions(conf: SparkConf): List[Int] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:28:43: value split is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m      case Some(dimensions) => dimensions.split("x").toList.map(_.toInt)[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:34:47: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  private[qubole] def simulateExecutors(conf: SparkConf): Seq[Int] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:37:49: value split is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m        case (Some(simulations)) => simulations.split(",").map(_.toInt).toSeq[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:44:55: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  private[qubole] def maxDelayInContainerLaunch(conf: SparkConf): Int = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/namanu/sparklens/src/main/scala/com/qubole/sparklens/package.scala:47:33: value toInt is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m        val delay = delayString.toInt[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m63 errors found[0m

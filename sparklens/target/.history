@@ -1,0 +1,14 @@
+import org.json4s.native
+quit
+:quit
+compile
+quit
+:quit
+exit
+sbt compile
+compile
+exit
+packag
+package
+:quit
+exit
